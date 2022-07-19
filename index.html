@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PokePedia - Vitor Gabriel Silva</title>
+    <link rel="shortcut icon" href="pokemon-logo-png-1421-32x32.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="principal">
+
+        <!-- TITULO -->
+
+        <section class="section-1">
+            <h1 class="title">Bem-Vindo, utilize a <span class="destaque">Pokepédia</span> para consultar um pokémon de acordo com o seu ID. Boa experiência!</h1>
+        </section>
+
+        <!-- LOGO POKEMON -->
+        <section>
+            <img src="pokemon-logo-png-1421.png" class="logo">
+        </section>
+
+        <!-- MENU DE BUSCA -->
+        <section>
+            <p class="nome-pesquisa">
+                Nome ou ID do Pokémon:
+            </p>
+            <form>
+                <p class="input-container">
+                    <input type="text" name="pesquisa" id="pesquisa" class="text-input"
+                     autocomplete="off" placeholder="ID do Pokémon" required>
+                    <label class="label" for="pesquisa">Pesquise aqui</label>
+                </p>
+                <input type="submit" class="enviar" value="Buscar">
+            </form>
+        </section>
+
+        <!-- INFORMAÇÕES DO POKEMON  -->
+        <section>
+            <div id="imgPokemon">
+                <img src="branco.png">
+                <img src="branco.png">
+            </div>
+
+            <div id="content">
+                ...
+            </div>
+        </section>
+    </main>
+
+    <!-- SCRIPTS -->
+    <script src="main.js"></script>
+
+</body>
+</html>
