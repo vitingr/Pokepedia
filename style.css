@@ -193,22 +193,23 @@ body {
 
 @media (max-width: 500px) {
     .principal {
-        width: 400px;
+        width: 325px;
+        padding: 25px;
     }
     .logo {
         margin-top: -100px;
-        height: 400px;
-        width: 400px;
+        height: 300px;
+        width: 300px;
     }
     .nome-pesquisa {
         margin-top: 100px;
     }
     .input-container {
         margin-left: 0;
-        width: 375px;
+        width: 275px;
     }
     .enviar {
         margin-left: 0px;
-        width: 411px;
+        width: 211px;
     }
 }
